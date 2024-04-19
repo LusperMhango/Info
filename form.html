@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        FORMS
+    </head>
+    <body>
+        <h1><p>Here is the concept of forms in html</p></h1>
+    <form>
+        <form action="https://www.unima.ac.mw/login.php" method="get">
+        <p><b>Username:</b>
+            <input type="username" name="username" size="15" maxlength="20" />     
+        </p>
+        
+            <label for="Password"><b>Password: </b></label>
+            <input type="password" name="password" size="10" maxlength="15" />
+
+        <p><b>What do think of this book your using duckeit </b></p>
+        <p>
+            <textarea type="character" cols="15" rows="4">Enter your comments...</textarea>
+        </p>
+        <h2>RADIO SECTION</h2>
+        <P><b><i>Please select the radio genre you are listening:</i></b></P>
+        <P>
+            <input type="radio" name="genre" value="rock" checked="checked" />Rock
+            <input type="radio" name="genre" value="pop" />Pop
+            <input type="radio" name="genre" value="jazz" />jazz
+        </P>
+        <h3>MUSIC SERVICES</h3>
+        <P><b><i>Please select your favourite:</i></b></P>
+        <p>
+            <input type="checkbox" name="service" value="iTunes" checked="checked" />iTunes
+            <input type="checkbox" name="service" value="spotify" />spotify
+            <input type="checkbox" name="Boomplay" value="Boomplay" />Boomplay
+        </p>
+        <h4>DROPDOWN LIST</h4>
+        <p><i><b>you can select your favourite devices depending on your choices:</b></i></p>
+             <select name="devices">
+                <option value="Samsung">Samsung</option>
+                <option value="Iphone">Iphone</option>
+                <option value="Techno">Techno</option>
+            </select>
+    </form>
+     <form>
+        <form action="https://WWW.Example.com/login.php" method="post" >
+        <h5>FILE-INPUT TEXT</h5>
+        <p><i><b>you can upload whatever song you would want to upload here:</b></i></p>
+        <input type="file" name="user-songs" /><br />
+        <input type="submit" value="upload" />
+        <h6>ADDING SUBCRIPTION THUMBS OR SUBMIT BUTTON</h6>
+        <p>click here:</p>
+        <input type="text" name="page" /><br />
+        <input type="submit" name="subscribe" value="subscribe" />
+    </form>
+    <form>
+        <h5>IMAGE BUTTONS</h5>
+        <form action="https://WWW.Example.com/subscribe.php" method="post" >
+        <p><b>SUBSCRIBE TO THIS PAGE:</b></p>
+        <input type="text" name="Subscribe" /><br />
+        <input type="image" src="https://source.unsplash.com/random/subscribe" width="100" height="20" />
+    </form>
+    </body>
+</html>
